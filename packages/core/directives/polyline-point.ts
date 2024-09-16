@@ -1,7 +1,7 @@
 import { Directive, EventEmitter, forwardRef, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
-import { LatLngLiteral } from '../../core/services/google-maps-types';
+import { LatLngLiteral } from '../services/google-maps-types';
 import { FitBoundsAccessor, FitBoundsDetails } from '../services/fit-bounds';
 
 /**
